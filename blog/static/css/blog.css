@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #c25100;
+  background-color: #f9f7eb;
   margin-top: 0;
   padding: 20px 20px 20px 40px;
 }
@@ -21,7 +21,9 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Lobster", cursive;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", "游ゴシック", "Yu Gothic", "ＭＳ Ｐゴシック", "MS PGothic",
+    sans-serif;
 }
 
 .date {
@@ -52,5 +54,5 @@ h4 {
 
 .post h2 a,
 .post h2 a:visited {
-  color: #000000;
+  color: #e9efdb;
 }
