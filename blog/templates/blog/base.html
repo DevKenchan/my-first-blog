@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <div class="page-header">
+    <div id="header" class="page-header">
         {% if user.is_authenticated %}
         <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         {% endif %}
+        <p id="today">9999/99/99 99:99:99</p>
         <h1><a href="/">Django Original Blog</a></h1>
     </div>
     <div class="content container">
@@ -24,6 +25,9 @@
             </div>
         </div>
     </div>
+    <script src="/_common/scripts/jquery-3.6.0.min.js"></script>
 </body>
+
+<script src="blog/js/main.js"></script>
 
 </html>
