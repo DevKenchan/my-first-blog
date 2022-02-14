@@ -15,7 +15,7 @@ setInterval(function(){
 
     if(date % 2 == 0) {
         document.getElementById("header").style.backgroundColor = "#808000";
-    } else if(date % 2 == 1) {
+    } else {
         document.getElementById("header").style.backgroundColor = "#800000";
     }
 }, 1000);
